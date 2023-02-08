@@ -1,0 +1,167 @@
+.body{
+    height: 80vh;
+    width: 100%;
+    background: rgb(240, 242, 244);
+}
+
+.pic{
+    position: relative;
+    top: 196px;
+    left: 400px;
+}
+
+h2{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif ;
+    font-weight: 405;
+    font-size: 28.1px;
+    color: rgb(28, 28, 28);
+    word-spacing: 0px;
+}
+
+.text{
+    position: relative;
+    top: 190px;
+    left: 400px;
+    
+}
+
+.rectangle{ 
+    position: relative;
+    background-color: #fff;
+    border-radius: 9px;
+    box-sizing: border-box;
+    /* margin: 40px; */
+    padding: 8px 15px;
+    width: 395px;
+    height: 350px;
+    top: -73px;
+    left: 980px;
+    box-shadow: 3px 3px 20px  rgb(213, 213, 213);
+    /* align-items: flex-end; */
+}
+
+.inputtext{ 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17.3px;
+    width: 364px;
+    height: 49px;
+    margin-top: 8px;
+    text-align: left;
+    color:#dbdbdb;
+    border-radius: 6px;
+    border: 0.07rem solid;
+}
+
+.password {
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif ;
+    font-size: 17.3px;
+    width: 364px;
+    height: 45px;
+    padding: 2px;
+    margin-top: 12px;
+    margin-left: 0px;
+    text-align: left;
+    color:#dbdbdb;
+    border-radius: 6px;
+    border-bottom: 1px solid;
+    border: 0.07rem solid;
+}
+input::placeholder{
+    color:#9b9b9b;
+    position: relative;
+    left: 15px;
+}
+
+#signup{
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif ;
+    font-size: medium;
+    font-weight: 70px;
+    position: relative;
+    border-radius: 6px;
+    margin-top: 20px 20px;
+    background-color: #18b620;
+    border-color:  #15bf1e;
+    font-weight: bold;
+    block-size: 40px;
+    top: 50px;
+    left: 80px; 
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: 10s, color 2;
+}
+#signup:hover{
+    background:#149d1b;
+}
+
+#login {
+    background-color: #1877f2;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 10px;;
+    width: 364px;
+    height: 48px;
+    font-size: 20px;
+    color : #FFFFFF;
+    padding: 0 16px;
+    border-radius: 6px;
+    border: none ;
+  }
+#login:hover{
+    background-color: #1a6ad3;
+}
+
+.forgot{
+    position: relative;
+    left: 0px;
+    top:px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif  ;
+    font-size: small;
+    text-decoration: underline dotted;
+    color: #3b75f7;
+}
+
+.sozdai{
+    position: relative;
+    top: 70px;
+    text-decoration: underline none;
+}
+
+#su{
+    color:black;
+}
+
+p{
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif ;
+    font-size:14px;
+    text-align:center;
+}
+.languages{
+    position: relative;
+    color: #8a8d91;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif ;
+    font-size: 12px;
+    text-align: left;
+    top: 320px;
+    left: -600px;
+    word-spacing: 15px;
+  }
+.focus1{
+    position: relative;
+    border-bottom: 1px solid #dadde1;
+    align-items: center;
+    margin: 10px 12px ;
+    top:106%;
+    left:205px;
+    width: 980px;
+  }
+.txtinfo
+  {
+    position: relative;
+    color: #8a8d91;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif ;
+    font-size:12px;
+    top:106%;
+    left: 214px;
+    word-spacing: 25px;
+  }
