@@ -51,33 +51,3 @@ function newElement() {
   }
 }
 
-////////////////////////////////////////////////////////////////
-
-// let addToDoButton = document.getElementById('addbutton');
-// let todocontain = document.getElementById('ToDoContain');
-// let inputtxt = document.getElementById('inputtxt');
-
-
-
-
-// addToDoButton.addEventListener('click', function(){
-// var paragraph = document.createElement('p');
-// let checkbox = document.createElement('input'); //creating input for checkbox
-// checkbox.setAttribute("type", "checkbox"); // setting attribute to make it chackbox
-// checkbox.setAttribute("onclick", "editStyle()");
-// checkbox.setAttribute("id", 'checkbutton');
-// paragraph.innerText = inputtxt.value; 
-
-// if (inputtxt.value == "")
-// {
-//     alert("You must write something")
-// }
-// else{
-//     todocontain.appendChild(paragraph);
-//     paragraph.appendChild(checkbox);
-//     paragraph.appendChild(img);
-//     inputtxt.value = ""
-// }
-
-
-// })
