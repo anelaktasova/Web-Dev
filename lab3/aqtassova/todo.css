@@ -1,0 +1,154 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  body{
+    background-image: url('back7.webp');    
+  }
+  ul li {
+    cursor: pointer;
+    font-family: Comic Sans MS, Comic Sans MS5, cursive;
+    position: relative;
+    top: 170px;
+    padding: 12px 190px 12px 0px;
+    width: 800px;
+    right: 15px;
+    height: 55px;
+    background:rgb(255, 225, 235);
+    font-size: 22px;
+    transition: 0.2s;
+    text-align: left;
+    border: solid;
+    border-color:rgb(76, 17, 70);
+    border-collapse: collapse;
+    border-width: 0.1px;
+    border-radius: 5px;
+    list-style-type: none;
+  }
+  /* ul li:nth-child(odd) {
+    background: rgb(255, 225, 235);
+    border: solid;
+    border-color:rgb(76, 17, 70);
+    border-collapse: collapse;
+    text-align: left;
+    border-width: 0.1px;
+    border-radius: 10px;
+  } */
+  ul li:hover {
+    background: rgb(150, 125, 170);
+  }
+  ul li.checked {
+    background: #a70101;
+    color: #000000;
+    text-decoration: line-through;
+  }
+  ul li.checked::before {
+    content: normal;
+    position: relative;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 0.03em;
+    top: 11 0px;
+    left: 50px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  .wish{
+    position: relative;
+    width: 300px;
+    right: 700px;
+    top: 20px;
+    font-family:Comic Sans MS, Comic Sans MS5, cursive;
+    text-align: left;
+    font-size: 60px;
+    font-weight: 200;
+    border-style: dotted;
+    border-width: 7px;
+    border-radius: 100px;
+    padding: 20px;
+    color: rgb(150, 125, 170);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  }
+  .wish2{
+    position: relative;
+    width: 300px;
+    top: 75px;
+    right: 260px;
+    padding: 10px;
+    font-family:Comic Sans MS, Comic Sans MS5, cursive;
+    font-size: 50px;
+    font-weight: 100;
+    /* border-style: dotted;
+    border-width: 7px;
+    border-radius: 100px; */
+    padding: 20px;
+    color: rgb(150, 125, 170);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+  .close {
+    position: relative;
+    left: 350px;
+    width: 90px;
+    padding: 7px 7px 7px 7px;
+  }
+  .close:hover {
+    background-color: rgb(89, 69, 105);
+    color: rgb(255, 255, 255);
+    border-radius: 120px / 10px 100px;
+  }
+  input {
+    position: relative;
+    top: 115px;
+    left: 500px;
+    width: 800px;
+    height: 55px;
+    text-align: left;
+    border: 1px solid rgb(89, 69, 105);
+    background-color: rgb(255, 225, 235);
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+  }
+  .addBtn {
+    position: relative;
+    top: 115px;
+    left: 550px;
+    padding: 10px;
+    width: 75px;
+    height: 55px;
+    background: rgb(122, 95, 144);
+    color: #ffe9ff;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 50px;
+    font-family: Comic Sans MS, Comic Sans MS5, cursive;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  #myInput{
+    position: relative;
+    font-family: Comic Sans MS, Comic Sans MS5, cursive;
+    font-size: 22px;
+    padding: 10px 20px;
+  }
+  .addBtn:hover {
+    background-color: rgb(89, 69, 105);
+  }
+  #checkbutton{
+    position: relative;
+    bottom: 6px;
+  }
+/* #stars{
+  position: relative;
+  top: 100px;
+  left: 600px;
+  width: 300px;
+} */
