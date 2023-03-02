@@ -239,7 +239,7 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif ;
     font-size:12px;
     bottom:970px;
-    left: 400px;
+    left: 300px;
     word-spacing: 25px;
-    align-content: center;
+    text-align: start;
   }

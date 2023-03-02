@@ -1,0 +1,42 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .product {
+    position: relative;
+    width: calc(33.33% - 10px);
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .product a {
+    display: block;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .product h2 {
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  
+  .product p {
+    font-size: 1rem;
+    margin: 10px;
+  }
+  
+  .product .rating {
+    font-size: 1rem;
+    margin: 10px;
+  }
+  
+  .product .buttons {
+    display: flex;
+    justify-content: space-between;
+  }  
